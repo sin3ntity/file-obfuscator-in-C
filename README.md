@@ -3,5 +3,7 @@ Well there's not much to say about a simple file obfuscator. It inverts the bina
 ## Usage
 ```bash
   cc -o main fileObfuscator.c
-  ./main < secret_file > encrypted_file
+```
+```
+  ./main secret_file
 ```
